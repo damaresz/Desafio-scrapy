@@ -11,13 +11,27 @@ Abrir um projeto no Pycharm, ou ambiente de sua preferência
 Buscar as informações no URL 
 criar o códico com especificações desejada
 
+#automação web
 
-import scrapy
+from scrapyd.import.webdrive
+navegador = webdrive.chrome
+navegador.get (URL)
+navegador.find_element_by_xpath
+
+//seleciona o xpath no codigo do site, caso queira direcionar a automação para uma solicitação/janela específica.
+
+[cola o url do xpath - do local desejado]
+
+// buscar processo pelo 'N do processo' ou 'N do legado'
+
+
+ou
+
 
 
 class ImdbSpider(scrapy.Spider):
     name = 'trf5'
-    start_urls = ['http://www5.trf5.jus.br/cp/]
+    start_urls = ['http..]
 
     def parse(self, response):
 
