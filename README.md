@@ -15,7 +15,7 @@ criar o códico com especificações desejada
 
 from scrapyd.import.webdrive
 navegador = webdrive.chrome
-navegador.get (URL)
+navegador.get (URL........)
 navegador.find_element_by_xpath
 
 //seleciona o xpath no codigo do site, caso queira direcionar a automação para uma solicitação/janela específica.
@@ -26,14 +26,23 @@ navegador.find_element_by_xpath
 
 
 ou
+/
+/
+/
 
 
+lmport Pandas
+Import Bokeh
+Import Pytil
+Import Poetry
 
 class ImdbSpider(scrapy.Spider):
     name = 'trf5'
     start_urls = ['http..]
 
     def parse(self, response):
+    
+    // O programa devera fazer busca de certidões em site específico, e colher informações descritas na certidão, formando indices, listas, graficos e tabelas com os dados fornecidos.
 
 for busca processos =
 numero_processo =['']
@@ -52,7 +61,7 @@ numero_cnpj=
 'nome_relator'
 'movimentações'
 'data_da_movimentação'
-'testo_da_movimentação"
+'textoo_da_movimentação"
 
 Em vermelho, o numero_processo [string] (caso não haja conteúdo, este campo deve ser preenchido com o numero_legado) ;
 Em verde, o numero_legado [string];
