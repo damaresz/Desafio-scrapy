@@ -11,7 +11,17 @@ Abrir um projeto no Pycharm, ou ambiente de sua preferência
 Buscar as informações no URL 
 criar o códico com especificações desejada
 
-#automação web
+# Descrição do projeto
+
+• Criar uma automação de buscas de certidões dentro do "site específico"
+• Abusca poderar ser feita pelo n° processo, n° do legado ou n° do CNPJ.
+• Com as certidões devidamente verificadas, sera coletado dados específicos.
+• Com os dados coletados sera gerado, planilha, tabela e gráfico.
+• Caso necessário implamentar projete de falha de segurança.
+• Dentro do planejamento original tem 3 opção de automação.
+
+# automaçãoweb
+# Exemplo 1
 
 from scrapyd.import.webdrive
 navegador = webdrive.chrome
@@ -30,11 +40,14 @@ ou
 /
 /
 
+# Exemplo 2
 
-lmport Pandas
-Import Bokeh
-Import Pytil
-Import Poetry
+
+•lmport Pandas
+•Import Bokeh
+•Import Pytil
+•Import Poetry
+•Import Pyautogui
 
 class ImdbSpider(scrapy.Spider):
     name = 'trf5'
@@ -42,11 +55,14 @@ class ImdbSpider(scrapy.Spider):
 
     def parse(self, response):
     
-    // O programa devera fazer busca de certidões em site específico, e colher informações descritas na certidão, formando indices, listas, graficos e tabelas com os dados fornecidos.
+    // O programa devera fazer busca de certidões em site específico, e colher informações descritas nas certidões, formando indices, listas, graficos e tabelas com os dados fornecidos.
 
 for busca processos =
-numero_processo =['']
-(caso não haja conteúdo, este campo deve ser preenchido com o numero_legado) ;
+numero_processo = 
+numero do cnpj =
+//Os dados são fornecidos anteriormente ou já automatizados.
+
+(caso não haja conteúdo, este campo deve ser preenchido com o numero_legado ou CNPJ) ;
 numero_legado= 
 numero_cnpj=
 {
@@ -63,6 +79,62 @@ numero_cnpj=
 'data_da_movimentação'
 'textoo_da_movimentação"
 
+# Exemplo 3
+
+import pyautogui
+import time
+
+pyautogui.alert("O código vai começar. Não utilize nada do computador até o código finalizar!")
+pyautogui.PAUSE = 2
+
+# Abrir o Google Drive no computador
+pyautogui.press('winleft')
+pyautogui.write('Chrome')
+pyautogui.press('enter')
+#time.sleep(2)
+pyautogui.write('https://.....')
+pyautogui.press('enter')
+
+# Entrar na área de trabalho
+pyautogui.hotkey('winleft','d')
+
+
+/////////caso arquivo////////
+# Clicar no arquivo e arrastar
+pyautogui.moveTo(567,38)
+pyautogui.mouseDown()
+pyautogui.moveTo(756,635)
+////////caso arquivo////////
+
+
+
+# Enquanto estiver arrastando mudar para a página do Google Drive
+pyautogui.hotkey('alt','tab')
+
+# Soltar o arquivo dentro do Google Drive
+pyautogui.mouseUp()
+
+# Esperar alguns segundos
+time.sleep(5)
+
+pyautogui.alert("O código foi finalizado. Você já pode utilizar o computador!")
+
+///////caso texto//////////
+# Digita o numero ou texto
+pyautogui.write(0000.456.999...)
+//////caso texto//////////
+
+# Fazer a busca do documentos ou arquivo
+pyautogui.press('enter')
+
+# Baixar o arquivo
+
+
+# Arquivar na pasta 
+
+
+# Copia os dados do n° do processo, legado, CNPJ e outros.
+
 Em vermelho, o numero_processo [string] (caso não haja conteúdo, este campo deve ser preenchido com o numero_legado) ;
 Em verde, o numero_legado [string];
 Em azul, a data_autuacao [datetime.datetime];
@@ -73,8 +145,6 @@ Em rosa, o relator [string] (apenas o nome é necessário)
 Em cinza, as movimentacoes [list of dict]:
 Em cima, a data [datetime.datetime] da movimentação;
 Embaixo, o texto [string] da movimentação.
-
-
 
             }
 
