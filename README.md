@@ -17,7 +17,7 @@ criar o códico com especificações desejada
 • Abusca poderar ser feita pelo n° processo, n° do legado ou n° do CNPJ.
 • Com as certidões devidamente verificadas, sera coletado dados específicos.
 • Com os dados coletados sera gerado, planilha, tabela e gráfico.
-• Caso necessário implamentar projete de falha de segurança.
+• Caso necessário implementar projeto de falha de segurança.
 • Dentro do planejamento original tem 3 opção de automação.
 
 # automaçãoweb
